@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
        -image: registry.hub.docker.com/ahmedwahi314/myrepo:7
-        name: guestbook-ui
+        -name: guestbook-ui
         ports:
         - containerPort: 80
